@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mrs Adewara</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d4edda; /* Light green background */
+}
+
+header {
+    background:#064707;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: .4s ease;
+
+}
+header nav ul li a:hover{
+    transition: .2s ease;
+    color: lightgreen;
+}
+          #branding h1{
+            animation: bounce 4.5s linear infinite;
+
+    }
+@keyframes bounce{
+    
+    0%, 20%, 50%, 80%, 100%{
+        color: lightgreen;
+    }
+    40%{
+        color: transparent;
+    }
+    60%{
+        transform: darkgeen;
+    }
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#portfolio {
+    padding: 20px 0;
+    text-align: center;
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+#portfolio h2 {
+    margin-bottom: 20px;
+}
+
+#portfolio h3 {
+    margin-top: 20px;
+}
+
+#portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+#portfolio ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background: #064707;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Saegba Poultry</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="portfolio">
+        <div class="container">
+            <h2>About Mrs Adewara</h2>
+            <p>Mrs Adewara is the visionary behind Chicken Farm, a family-owned business dedicated to providing the best quality chickens. With a background in agriculture and business management, Tony has successfully combined his passion for farming with his entrepreneurial spirit to create a thriving business.</p>
+            <h3>Background</h3>
+            <p>Mrs Adewara grew up in the countryside, where he developed a deep love for farming and animals. He pursued a degree in Agriculture and later obtained an MBA to enhance his business acumen. His extensive knowledge and experience in the field have been instrumental in the success of Chicken Farm.</p>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Established Chicken Farm in 2010</li>
+                <li>Expanded the farm to include over 5000 chickens</li>
+                <li>Introduced innovative farming techniques to improve productivity</li>
+                <li>Received the Best Poultry Farm Award in 2018</li>
+            </ul>
+            <h3>Vision</h3>
+            <p>Mrs Adewara's vision for Chicken Farm is to continue providing high-quality, healthy chickens to customers while promoting sustainable farming practices. He aims to expand the farm's operations and reach more customers through online sales and delivery services.</p>
+            <h3>Contact Mrs Adewara</h3>
+            <p>If you would like to get in touch with Mrs Adewara, please use the contact form on our website or reach out directly via email or phone.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Saegba Poultry © 2024</p>
+    </footer>
+</body>
+</html>

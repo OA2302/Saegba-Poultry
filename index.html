@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saegba Poultry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            font-weight: bolder;
+            padding: 0;
+            color: lightgreen;
+            background: #064707 ;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #064707;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+  #branding h1{
+            animation: bounce 4.5s linear infinite;
+
+    }
+@keyframes bounce{
+                animation: bounce 4.5s linear infinite;
+    0%, 20%, 50%, 80%, 100%{
+        color: lightgreen;
+    }
+    40%{
+        color: transparent;
+    }
+    60%{
+        transform: darkgeen;
+    }
+}
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bolder;
+            transition: .4s ease;
+        }
+        header a:hover {
+            transition: .2s ease;
+            color: lightgreen;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px; 
+            background: linear-gradient(to top, rgba(26, 67, 27, 0.59)50%,  rgba(26, 67, 27, 0.59)50%), url('fir.jpeg') no-repeat center center/cover;
+            text-align: center;
+            color: rgba(26, 67, 27, 5);
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #e0e0e0 1px solid;
+        }
+        #about, #services, #products, #brands, #gallery, #contact {
+            background: transparent;
+            padding: 20px;
+             box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.2);
+        }
+        #about h2, #services h2, #products h2, #brands h2, #gallery h2, #contact h2 {
+            color: lightgreen;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #services ul, #products ul, #brands ul {
+            list-style: none;
+            padding: 0;
+        }
+        #services li, #products li, #brands li {
+            background:white;
+            margin: 10px 0;
+             box-shadow: 15 5 20px 0px rgba(0, 0, 0,0.2);
+            color: lightgreen;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+        #gallery img {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.2);
+            border-radius: 7px;
+            background: linear-gradient(to top, rgba(26, 67, 27, 1.59),  rgba(26, 67, 27, 1.59))
+
+        }
+        footer {
+            background: #064707;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            header nav ul li{
+                font-size:45px ;
+            }
+            header #branding, header nav, header nav ul, header nav ul li {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            #showcase h1 {
+                font-size: 40px;
+            }
+            #showcase p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Saegba Poultry</h1>
+            </div>
+            <nav>
+                <ul>
+
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="port.html">portfilo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Saegba poultry </h1>
+            <p>Quality chickens for sale at affordable prices.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a family-owned chicken farm dedicated to providing the best quality chickens. Our farm is located in the countryside, where our chickens are raised in a healthy and natural environment.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Chicken Sales: We offer a variety of chicken breeds for sale, all raised in a healthy environment.</li>
+                <li>Farm Tours: Experience our farm firsthand with guided tours.</li>
+                <li>Educational Workshops: Learn about chicken farming and care through our workshops.</li>
+                <li>Delivery Services: We provide delivery services for bulk orders.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <ul>
+                <li>Fresh Eggs: Organic and free-range eggs available in various quantities.</li>
+                <li>Chicken Meat: High-quality, fresh chicken meat processed on-site.</li>
+                <li>Chicken Feed: Nutritious feed for your chickens, available for purchase.</li>
+                <li>Farm Equipment: A range of equipment and supplies for chicken farming.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="brands">
+        <div class="container">
+            <h2>Our Brands</h2>
+            <ul>
+                <li>Golden Egg: Our premium brand for organic eggs.</li>
+                <li>Healthy Hen: A trusted name in chicken feed and supplements.</li>
+                <li>Farm Fresh: Our brand for high-quality chicken meat.</li>
+                <li>EcoFarm: Sustainable and eco-friendly farming equipment.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <img src="fir.jpeg" alt="Chickens">
+            <img src="sec.jpeg" alt="Chickens">
+            <img src="fir.jpeg" alt="Chickens">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to visit our farm, please contact us at:</p>
+            <p>Email: info@chickenfarm.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Chicken Farm © 2024</p>
+    </footer>
+</body>
+</html>
